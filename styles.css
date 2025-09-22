@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    min-height: 100vh;
+    font-family: sans-serif, Arial;
+    background-image: url('imagenes/fondo.jpg');
+    background-size: cover; /* Hace que la imagen cubra toda el área */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Mantiene la imagen en su lugar al hacer scroll */
+
+}
+
+header{
+    background-color: #1e1e1e;
+    height: 12.5vh;  
+    width: 100%;
+}
+
+nav{
+    display: flex; /* Activa Flexbox para los elementos hijos */
+    align-items: center; /* Centra el logo y el menú verticalmente */
+    justify-content: space-between; /* Mueve el logo a la izquierda y el menú a la derecha */
+    height: 100%; /* El nav ocupa toda la altura del header */
+    padding: 0 25px; /* Agrega espacio a los lados */
+}
+
+.logo-mio {
+    height: 100%; /* Ocupa la altura del nav para que el logo se ajuste */
+    display: flex; /* Para centrar el logo verticalmente dentro del enlace */
+    align-items: center;
+}
+
+.logo_ia {
+    width: 70px; /* Tamaño fijo para el logo, es más predecible */
+    height: auto;
+    border-radius: 80%;
+}
+
+nav ul {
+    display: flex; /* Convierte los ítems de la lista en una fila horizontal */
+    list-style: none; /* Elimina las viñetas */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 30px; /* Espacio entre los enlaces del menú */
+}
+
+/* Estilos para los enlaces (opcional) */
+nav ul li a {
+    color: #fff; /* Color del texto de los enlaces */
+    text-decoration: none; /* Elimina el subrayado */
+    font-weight: bold;
+}
