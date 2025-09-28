@@ -1,12 +1,13 @@
 *{
     margin:0;
     padding:0;
+    color: #fff;
 }
 
 body{
     min-height: 100vh;
     font-family: sans-serif, Arial;
-    background-image: url('imagenes/fondo.jpg');
+    background-image: url('imagenes/fondo2.jpg');
     background-size: cover; /* Hace que la imagen cubra toda el área */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-attachment: fixed; /* Mantiene la imagen en su lugar al hacer scroll */
@@ -52,7 +53,84 @@ nav ul li {
 
 /* Estilos para los enlaces (opcional) */
 nav ul li a {
-    color: #fff; /* Color del texto de los enlaces */
     text-decoration: none; /* Elimina el subrayado */
     font-weight: bold;
+    display: inline-block;
+    padding: 8px 0;
+}
+
+.btn-cv{
+    background-color: transparent;
+    border: 1px solid #c2bcbc;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 8px
+}
+
+.sobre-mi{
+    max-width: 1150px;
+    margin: 70px auto;
+    display: flex;
+    gap: 70px;
+
+}
+
+.foto-yo{
+    width: 300px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.bloque-texto{
+    max-width: 800px;
+
+}
+
+.bloque-texto h1{
+    font-size: 3.5rem;
+    margin-bottom: 8px;
+}
+
+.bloque-texto h1 span{
+    color: #cac9c8;
+}
+
+.bloque-texto h2{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.bloque-texto p{
+    text-align: justify;
+    margin: 15px 0;
+}
+
+.redes-sociales{
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.redes-sociales a{
+    display: block; 
+    width: 35px; 
+    height: 35px;
+}
+
+.redes-sociales a img {
+    width: 100%;
+    height: 100%;
+}
+
+.lenguajes{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.lenguajes img{
+    width: 70px;
+    height: 75px;
+    
 }
